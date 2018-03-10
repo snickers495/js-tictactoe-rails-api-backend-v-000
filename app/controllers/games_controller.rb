@@ -9,7 +9,8 @@ class GamesController < ApplicationController
   end
 
   def show
-    id = paramsp
+    id = params[:id]
+    
   end
 
 
