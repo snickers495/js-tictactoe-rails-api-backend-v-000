@@ -8,5 +8,7 @@ class GamesController < ApplicationController
     render json: Game.all
   end
 
+  def 
+
 
 end
