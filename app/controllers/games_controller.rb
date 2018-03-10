@@ -18,7 +18,7 @@ class GamesController < ApplicationController
 
   def update
     game = Game.find(params[:id])
-    game.
+    game.update(state: params[])
   end
 
 end
