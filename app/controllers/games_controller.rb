@@ -17,7 +17,7 @@ class GamesController < ApplicationController
   end
 
   def update
-    
+    @
   end
 
 end
