@@ -16,5 +16,6 @@ class GamesController < ApplicationController
   def edit
   end
 
+  
 
 end
