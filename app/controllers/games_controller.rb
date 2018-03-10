@@ -13,7 +13,7 @@ class GamesController < ApplicationController
     render json: Game.find(id)
   end
 
-  def edit 
+  def edit
   end
 
 
