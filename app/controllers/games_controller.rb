@@ -5,6 +5,6 @@ class GamesController < ApplicationController
   end
 
   def game_params
-
-  end 
+    params.require(:game, )
+  end
 end
