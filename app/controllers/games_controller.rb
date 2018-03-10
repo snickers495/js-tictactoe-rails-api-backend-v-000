@@ -4,5 +4,7 @@ class GamesController < ApplicationController
 
   end
 
+  private
+
   
 end
