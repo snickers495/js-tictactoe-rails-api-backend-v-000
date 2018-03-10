@@ -4,5 +4,9 @@ class GamesController < ApplicationController
     render(status: 201, json: Game.create(state: params[:state]))
   end
 
+  def index
+
+  end 
+
 
 end
