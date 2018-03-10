@@ -12,7 +12,9 @@ class GamesController < ApplicationController
     id = params[:id]
     render json: Game.find(id)
   end
-  
+
+  def edit 
+  end
 
 
 end
