@@ -17,7 +17,7 @@ class GamesController < ApplicationController
   end
 
   def update
-    game = 
+    game = Game.find()
   end
 
 end
