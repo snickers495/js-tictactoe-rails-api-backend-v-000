@@ -5,8 +5,8 @@ class GamesController < ApplicationController
   end
 
   def index
-
-  end 
+    render 
+  end
 
 
 end
