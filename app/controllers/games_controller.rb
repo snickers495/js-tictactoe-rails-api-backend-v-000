@@ -7,6 +7,6 @@ class GamesController < ApplicationController
   private
 
   def game_params
-    params.
+    params.require()
   end
 end
