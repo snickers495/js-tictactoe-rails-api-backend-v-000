@@ -4,9 +4,4 @@ class GamesController < ApplicationController
     render(status: 201, json: Game.create(game_params.state))
   end
 
-  private
-
-  def game_params
-    params.require(:game).permit(:state)
-  end
 end
