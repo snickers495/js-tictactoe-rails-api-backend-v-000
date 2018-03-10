@@ -18,6 +18,7 @@ class GamesController < ApplicationController
 
   def update
     game = Game.find(params[:id])
+    game.
   end
 
 end
